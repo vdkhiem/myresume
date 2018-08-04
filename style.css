@@ -1,0 +1,140 @@
+/* selector for all elements */ 
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Include padding and border in the element's total width and height*/
+}
+
+/* Force an Element To Self-Clear its Children    
+   This to ensure the footer always stay at the bottom
+*/
+.clearfix:after { 
+    content: "";
+    display: table;
+    clear:both;
+}
+
+body {
+    font-family: Helvetical Neue Arial;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container {
+    width: 1140px;
+    /* set margin left and right to auto to ensure it align to center of browser */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction {
+    background-color:black;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.workHistory {
+    width: 70%;
+    float: right;
+    padding-left: 10px;
+    border-left: 1px solid #727272;
+}
+
+.skillSet {
+    width: 30%;   
+    float: right;
+}
+
+.footer {
+    border-top: 1px solid #727272
+    
+}
+
+.introductionPhoto {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+/* Position text over an image https://www.w3schools.com/howto/howto_css_image_text.asp*/
+/* Image align https://www.w3schools.com/tags/att_img_align.asp */
+
+
+.introductionPhoto img {
+    height: 200px;
+    width: 200px; /* make image square */
+    border-radius: 50%; /* make image cirle */
+}
+
+.introductionCurrentPosition {
+    background-color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    padding: 10px 0px 10px 0px
+    
+}
+
+.employment {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.companyPosition {
+    position: absolute;
+    top:0;
+    right:0;
+    color:darkcyan;
+}
+
+.employmentDetailPeriod {
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.employmentDetailCompany {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.employmentDetailHeader {
+    position: relative;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.workDetailText {
+    margin-bottom: 10px;
+}
+
+.employmentDetail {
+    margin-top: 20px;
+}
+
+.workDetailProject {
+    font-weight: bold;
+}
+
+.skillSetHeader {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.skillSetDetail {
+    padding-right: 10px;
+}
+
+.keySkill {
+    font-weight: bold;
+}
