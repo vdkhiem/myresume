@@ -15,8 +15,8 @@
 }
 
 body {
-    font-family: Helvetical Neue Arial;
-    font-size: 18px;
+    font-family: Arial;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .introduction {
-    background-color:black;
+    background-color: #2980b9;
     color: white;
     padding-top: 20px;
     text-align: center;
@@ -67,10 +67,9 @@ body {
 }
 
 .introductionCurrentPosition {
-    background-color: grey;
+    background-color: #3498db;
     font-size: 30px;
-    font-weight: bold;
-    color: black;
+    color: white;
     padding: 10px 0px 10px 0px
     
 }
@@ -86,7 +85,7 @@ body {
     position: absolute;
     top:0;
     right:0;
-    color:darkcyan;
+    color:#2980b9;
 }
 
 .employmentDetailPeriod {
